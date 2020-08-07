@@ -1,6 +1,7 @@
 package com.jzg.jcpt.test;
 
-import com.jzg.jcpt.fragment.CameraFragment;
+
+import com.jzg.lib.fragment.CameraFragment;
 
 import java.io.File;
 

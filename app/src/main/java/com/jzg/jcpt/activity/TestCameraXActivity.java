@@ -9,7 +9,7 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.jzg.jcpt.R;
-import com.jzg.jcpt.fragment.TakePhotoFragment;
+import com.jzg.lib.fragment.TakePhotoFragment;
 
 import org.jetbrains.annotations.NotNull;
 

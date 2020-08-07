@@ -15,7 +15,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".activity.CameraXActivity">
+        <activity android:name="com.jzg.lib.CameraXActivity">
 
         </activity>
         <activity android:name=".activity.TestCameraXActivity">

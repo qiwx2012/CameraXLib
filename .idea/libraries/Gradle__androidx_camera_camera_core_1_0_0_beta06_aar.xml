@@ -1,12 +1,12 @@
 <component name="libraryTable">
   <library name="Gradle: androidx.camera:camera-core:1.0.0-beta06@aar">
     <ANNOTATIONS>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d1ef294fb144fb0ecfda0723d3aeb274/camera-core-1.0.0-beta06/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6fa7935576c9bf9f1c8d523d64facd8a/camera-core-1.0.0-beta06/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d1ef294fb144fb0ecfda0723d3aeb274/camera-core-1.0.0-beta06/AndroidManifest.xml" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d1ef294fb144fb0ecfda0723d3aeb274/camera-core-1.0.0-beta06/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d1ef294fb144fb0ecfda0723d3aeb274/camera-core-1.0.0-beta06/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6fa7935576c9bf9f1c8d523d64facd8a/camera-core-1.0.0-beta06/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6fa7935576c9bf9f1c8d523d64facd8a/camera-core-1.0.0-beta06/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6fa7935576c9bf9f1c8d523d64facd8a/camera-core-1.0.0-beta06/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
