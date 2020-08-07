@@ -12,7 +12,6 @@
   <component name="ChangeListManager">
     <list default="true" id="86342e8c-05cd-4ede-adfd-91a08da56548" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/lib/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -166,7 +165,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596779322532</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="ff">
+      <created>1596779915011</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1596779915011</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -197,10 +203,10 @@
       <screen x="1280" y="-280" width="1920" height="1080" />
     </state>
     <state x="2103" y="32" key="AndroidProcessChooserDialog/0.0.1280.800/1280.-280.1920.1080@1280.-280.1920.1080" timestamp="1596704841123" />
-    <state x="1862" y="-41" key="CommitChangelistDialog2" timestamp="1596779320811">
+    <state x="1862" y="-41" key="CommitChangelistDialog2" timestamp="1596779914764">
       <screen x="1280" y="-280" width="1920" height="1080" />
     </state>
-    <state x="1862" y="-41" key="CommitChangelistDialog2/0.0.1280.800/1280.-280.1920.1080@1280.-280.1920.1080" timestamp="1596779320811" />
+    <state x="1862" y="-41" key="CommitChangelistDialog2/0.0.1280.800/1280.-280.1920.1080@1280.-280.1920.1080" timestamp="1596779914764" />
     <state x="1862" y="-23" key="CommitChangelistDialog2/0.23.1280.706/1280.-257.1920.1057@1280.-257.1920.1057" timestamp="1596764489528" />
     <state width="1878" height="290" key="GridCell.Tab.0.bottom" timestamp="1596711055719">
       <screen x="1280" y="-280" width="1920" height="1080" />
@@ -238,10 +244,10 @@
       <screen x="1280" y="-280" width="1920" height="1080" />
     </state>
     <state x="1749" y="-101" key="SettingsEditor/0.0.1280.800/1280.-280.1920.1080@1280.-280.1920.1080" timestamp="1596764844986" />
-    <state x="1840" y="0" key="Vcs.Push.Dialog.v2" timestamp="1596779335360">
+    <state x="1840" y="0" key="Vcs.Push.Dialog.v2" timestamp="1596779919517">
       <screen x="1280" y="-280" width="1920" height="1080" />
     </state>
-    <state x="1840" y="0" key="Vcs.Push.Dialog.v2/0.0.1280.800/1280.-280.1920.1080@1280.-280.1920.1080" timestamp="1596779335360" />
+    <state x="1840" y="0" key="Vcs.Push.Dialog.v2/0.0.1280.800/1280.-280.1920.1080@1280.-280.1920.1080" timestamp="1596779919517" />
     <state x="1919" y="92" key="com.intellij.ide.util.TipDialog" timestamp="1596590753133">
       <screen x="1280" y="-280" width="1920" height="1080" />
     </state>
