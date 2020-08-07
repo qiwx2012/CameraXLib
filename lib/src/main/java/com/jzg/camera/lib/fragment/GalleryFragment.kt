@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.jzg.lib.fragment
+package com.jzg.camera.lib.fragment
 
 import android.annotation.SuppressLint
 import android.os.Bundle
@@ -37,8 +37,8 @@ import androidx.navigation.Navigation
 import androidx.navigation.fragment.navArgs
 import com.jzg.lib.BuildConfig
 import com.jzg.lib.R
-import com.jzg.lib.utils.padWithDisplayCutout
-import com.jzg.lib.utils.showImmersive
+import com.jzg.camera.lib.utils.padWithDisplayCutout
+import com.jzg.camera.lib.utils.showImmersive
 import java.util.Locale
 
 val EXTENSION_WHITELIST = arrayOf("JPG")
@@ -55,7 +55,8 @@ class GalleryFragment internal constructor() : Fragment() {
     @SuppressLint("WrongConstant")
     inner class MediaPagerAdapter(fm: FragmentManager) : FragmentStatePagerAdapter(fm, BEHAVIOR_RESUME_ONLY_CURRENT_FRAGMENT) {
         override fun getCount(): Int = mediaList.size
-        override fun getItem(position: Int): Fragment = PhotoFragment.create(mediaList[position])
+        override fun getItem(position: Int): Fragment =
+            PhotoFragment.create(mediaList[position])
         override fun getItemPosition(obj: Any): Int = POSITION_NONE
     }
 

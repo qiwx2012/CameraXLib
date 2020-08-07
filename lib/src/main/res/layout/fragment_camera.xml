@@ -8,7 +8,7 @@
     android:layout_height="match_parent">
 
 
-    <com.jzg.lib.view.CameraPreviewView
+    <com.jzg.camera.lib.view.CameraPreviewView
         android:id="@+id/view_finder"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />

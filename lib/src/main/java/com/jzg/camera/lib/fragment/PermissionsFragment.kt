@@ -1,4 +1,4 @@
-package com.jzg.lib.fragment
+package com.jzg.camera.lib.fragment
 import android.Manifest
 import android.content.Context
 import android.content.pm.PackageManager
@@ -21,13 +21,20 @@ class PermissionsFragment : Fragment() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        if (!hasPermissions(requireContext())) {
+        if (!hasPermissions(
+                requireContext()
+            )
+        ) {
             // Request camera-related permissions
-            requestPermissions(PERMISSIONS_REQUIRED, PERMISSIONS_REQUEST_CODE)
+            requestPermissions(
+                PERMISSIONS_REQUIRED,
+                PERMISSIONS_REQUEST_CODE
+            )
         } else {
             // If permissions have already been granted, proceed
             Navigation.findNavController(requireActivity(), R.id.fragment_container).navigate(
-                    PermissionsFragmentDirections.actionPermissionsToCamera())
+                PermissionsFragmentDirections.actionPermissionsToCamera()
+            )
         }
     }
 
@@ -39,7 +46,8 @@ class PermissionsFragment : Fragment() {
                 // Take the user to the success fragment when permission is granted
                 Toast.makeText(context, "Permission request granted", Toast.LENGTH_LONG).show()
                 Navigation.findNavController(requireActivity(), R.id.fragment_container).navigate(
-                        PermissionsFragmentDirections.actionPermissionsToCamera())
+                    PermissionsFragmentDirections.actionPermissionsToCamera()
+                )
             } else {
                 Toast.makeText(context, "Permission request denied", Toast.LENGTH_LONG).show()
             }

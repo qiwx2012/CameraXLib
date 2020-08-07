@@ -11,8 +11,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="86342e8c-05cd-4ede-adfd-91a08da56548" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/jzg/jcpt/activity/TestCameraXActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jzg/jcpt/activity/TestCameraXActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/jzg/jcpt/test/JavaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jzg/jcpt/test/JavaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/navigation/nav_graph.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/navigation/nav_graph.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/lib/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/main/java/com/jzg/lib/CameraXActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/main/java/com/jzg/camera/lib/CameraXActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/main/java/com/jzg/lib/fragment/CameraFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/main/java/com/jzg/camera/lib/fragment/CameraFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/main/java/com/jzg/lib/fragment/GalleryFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/main/java/com/jzg/camera/lib/fragment/GalleryFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/main/java/com/jzg/lib/fragment/PermissionsFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/main/java/com/jzg/camera/lib/fragment/PermissionsFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/main/java/com/jzg/lib/fragment/PhotoFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/main/java/com/jzg/camera/lib/fragment/PhotoFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/main/java/com/jzg/lib/fragment/TakePhotoFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/main/java/com/jzg/camera/lib/fragment/TakePhotoFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/main/java/com/jzg/lib/utils/CameraEventListener.kt" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/main/java/com/jzg/camera/lib/utils/CameraEventListener.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/main/java/com/jzg/lib/utils/CameraPreviewView_bak.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/main/java/com/jzg/camera/lib/utils/CameraPreviewView_bak.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/main/java/com/jzg/lib/utils/ViewExtensions.kt" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/main/java/com/jzg/camera/lib/utils/ViewExtensions.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/main/java/com/jzg/lib/view/CameraPreviewView.kt" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/main/java/com/jzg/camera/lib/view/CameraPreviewView.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/main/res/layout/fragment_camera.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/main/res/layout/fragment_camera.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/main/res/navigation/nav_graph.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/main/res/navigation/nav_graph.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,6 +98,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lib/src/main/java/com/jzg/camera/lib" />
       <recent name="$PROJECT_DIR$/lib/src/main/java/com/jzg/lib" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -172,7 +201,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596779915011</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="ff">
+      <created>1596780768250</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1596780768250</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -180,7 +216,8 @@
       <path value="$PROJECT_DIR$/.." />
     </ignored-roots>
     <MESSAGE value="ff" />
-    <option name="LAST_COMMIT_MESSAGE" value="ff" />
+    <MESSAGE value="重新编译" />
+    <option name="LAST_COMMIT_MESSAGE" value="重新编译" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2053" y="-17" key="#com.intellij.ide.util.MemberChooser" timestamp="1596614722865">
@@ -203,27 +240,31 @@
       <screen x="1280" y="-280" width="1920" height="1080" />
     </state>
     <state x="2103" y="32" key="AndroidProcessChooserDialog/0.0.1280.800/1280.-280.1920.1080@1280.-280.1920.1080" timestamp="1596704841123" />
-    <state x="1862" y="-41" key="CommitChangelistDialog2" timestamp="1596779914764">
-      <screen x="1280" y="-280" width="1920" height="1080" />
+    <state x="1862" y="-23" key="CommitChangelistDialog2" timestamp="1596784218735">
+      <screen x="1280" y="-257" width="1920" height="1057" />
     </state>
-    <state x="1862" y="-41" key="CommitChangelistDialog2/0.0.1280.800/1280.-280.1920.1080@1280.-280.1920.1080" timestamp="1596779914764" />
-    <state x="1862" y="-23" key="CommitChangelistDialog2/0.23.1280.706/1280.-257.1920.1057@1280.-257.1920.1057" timestamp="1596764489528" />
-    <state width="1878" height="290" key="GridCell.Tab.0.bottom" timestamp="1596711055719">
-      <screen x="1280" y="-280" width="1920" height="1080" />
+    <state x="1862" y="-41" key="CommitChangelistDialog2/0.0.1280.800/1280.-280.1920.1080@1280.-280.1920.1080" timestamp="1596780767986" />
+    <state x="1862" y="-23" key="CommitChangelistDialog2/0.23.1280.706/1280.-257.1920.1057@1280.-257.1920.1057" timestamp="1596784218735" />
+    <state width="1878" height="275" key="GridCell.Tab.0.bottom" timestamp="1596783760371">
+      <screen x="1280" y="-257" width="1920" height="1057" />
     </state>
     <state width="1878" height="290" key="GridCell.Tab.0.bottom/0.0.1280.800/1280.-280.1920.1080@1280.-280.1920.1080" timestamp="1596711055719" />
-    <state width="1878" height="290" key="GridCell.Tab.0.center" timestamp="1596711055715">
-      <screen x="1280" y="-280" width="1920" height="1080" />
+    <state width="1878" height="275" key="GridCell.Tab.0.bottom/0.23.1280.706/1280.-257.1920.1057@1280.-257.1920.1057" timestamp="1596783760371" />
+    <state width="1878" height="275" key="GridCell.Tab.0.center" timestamp="1596783760369">
+      <screen x="1280" y="-257" width="1920" height="1057" />
     </state>
     <state width="1878" height="290" key="GridCell.Tab.0.center/0.0.1280.800/1280.-280.1920.1080@1280.-280.1920.1080" timestamp="1596711055715" />
-    <state width="1878" height="290" key="GridCell.Tab.0.left" timestamp="1596711055708">
-      <screen x="1280" y="-280" width="1920" height="1080" />
+    <state width="1878" height="275" key="GridCell.Tab.0.center/0.23.1280.706/1280.-257.1920.1057@1280.-257.1920.1057" timestamp="1596783760369" />
+    <state width="1878" height="275" key="GridCell.Tab.0.left" timestamp="1596783760368">
+      <screen x="1280" y="-257" width="1920" height="1057" />
     </state>
     <state width="1878" height="290" key="GridCell.Tab.0.left/0.0.1280.800/1280.-280.1920.1080@1280.-280.1920.1080" timestamp="1596711055708" />
-    <state width="1878" height="290" key="GridCell.Tab.0.right" timestamp="1596711055718">
-      <screen x="1280" y="-280" width="1920" height="1080" />
+    <state width="1878" height="275" key="GridCell.Tab.0.left/0.23.1280.706/1280.-257.1920.1057@1280.-257.1920.1057" timestamp="1596783760368" />
+    <state width="1878" height="275" key="GridCell.Tab.0.right" timestamp="1596783760370">
+      <screen x="1280" y="-257" width="1920" height="1057" />
     </state>
     <state width="1878" height="290" key="GridCell.Tab.0.right/0.0.1280.800/1280.-280.1920.1080@1280.-280.1920.1080" timestamp="1596711055718" />
+    <state width="1878" height="275" key="GridCell.Tab.0.right/0.23.1280.706/1280.-257.1920.1057@1280.-257.1920.1057" timestamp="1596783760370" />
     <state width="1878" height="290" key="GridCell.Tab.1.bottom" timestamp="1596711055724">
       <screen x="1280" y="-280" width="1920" height="1080" />
     </state>
@@ -244,10 +285,10 @@
       <screen x="1280" y="-280" width="1920" height="1080" />
     </state>
     <state x="1749" y="-101" key="SettingsEditor/0.0.1280.800/1280.-280.1920.1080@1280.-280.1920.1080" timestamp="1596764844986" />
-    <state x="1840" y="0" key="Vcs.Push.Dialog.v2" timestamp="1596779919517">
+    <state x="1840" y="0" key="Vcs.Push.Dialog.v2" timestamp="1596780792686">
       <screen x="1280" y="-280" width="1920" height="1080" />
     </state>
-    <state x="1840" y="0" key="Vcs.Push.Dialog.v2/0.0.1280.800/1280.-280.1920.1080@1280.-280.1920.1080" timestamp="1596779919517" />
+    <state x="1840" y="0" key="Vcs.Push.Dialog.v2/0.0.1280.800/1280.-280.1920.1080@1280.-280.1920.1080" timestamp="1596780792686" />
     <state x="1919" y="92" key="com.intellij.ide.util.TipDialog" timestamp="1596590753133">
       <screen x="1280" y="-280" width="1920" height="1080" />
     </state>

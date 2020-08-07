@@ -11,7 +11,7 @@ android {
 
     defaultConfig {
 //        applicationId "com.jzg.lib"
-        minSdkVersion 21
+        minSdkVersion 18
         targetSdkVersion 29
         versionCode 1
         versionName "1.0"

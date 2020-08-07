@@ -1,4 +1,4 @@
-package com.jzg.lib.utils
+package com.jzg.camera.lib.utils
 
 import android.os.Build
 import android.view.DisplayCutout
@@ -64,7 +64,8 @@ fun AlertDialog.showImmersive() {
             WindowManager.LayoutParams.FLAG_NOT_FOCUSABLE)
 
     // Make sure that the dialog's window is in full screen
-    window?.decorView?.systemUiVisibility = FLAGS_FULLSCREEN
+    window?.decorView?.systemUiVisibility =
+        FLAGS_FULLSCREEN
 
     // Show the dialog while still in immersive mode
     show()

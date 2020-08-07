@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/permissions_fragment"
-        android:name="com.jzg.lib.fragment.PermissionsFragment"
+        android:name="com.jzg.camera.lib.fragment.PermissionsFragment"
         android:label="PermissionsFragment" >
 
         <action
@@ -20,7 +20,7 @@
 
     <fragment
         android:id="@+id/camera_fragment"
-        android:name="com.jzg.lib.fragment.CameraFragment"
+        android:name="com.jzg.camera.lib.fragment.CameraFragment"
         android:label="CameraFragment" >
 
         <action
@@ -37,7 +37,7 @@
 
     <fragment
         android:id="@+id/gallery_fragment"
-        android:name="com.jzg.lib.fragment.GalleryFragment"
+        android:name="com.jzg.camera.lib.fragment.GalleryFragment"
         android:label="GalleryFragment" >
         <argument
             android:name="root_directory"

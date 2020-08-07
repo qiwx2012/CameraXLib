@@ -1,4 +1,4 @@
-package com.jzg.lib.fragment
+package com.jzg.camera.lib.fragment
 
 import android.content.BroadcastReceiver
 import android.content.Context
@@ -28,16 +28,14 @@ import androidx.core.net.toFile
 import androidx.fragment.app.Fragment
 import androidx.localbroadcastmanager.content.LocalBroadcastManager
 import com.jzg.jcpt.utils.CameraEventListener
-import com.jzg.lib.KEY_EVENT_ACTION
-import com.jzg.lib.KEY_EVENT_EXTRA
+import com.jzg.camera.lib.KEY_EVENT_ACTION
+import com.jzg.camera.lib.KEY_EVENT_EXTRA
 import com.jzg.lib.R
-import com.jzg.lib.utils.ANIMATION_FAST_MILLIS
-import com.jzg.lib.utils.ANIMATION_SLOW_MILLIS
-import com.jzg.lib.utils.simulateClick
-import com.jzg.lib.view.CameraPreviewView
+import com.jzg.camera.lib.utils.ANIMATION_FAST_MILLIS
+import com.jzg.camera.lib.utils.ANIMATION_SLOW_MILLIS
+import com.jzg.camera.lib.utils.simulateClick
+import com.jzg.camera.lib.view.CameraPreviewView
 import java.io.File
-import java.text.SimpleDateFormat
-import java.util.*
 import java.util.concurrent.ExecutorService
 import java.util.concurrent.Executors
 import java.util.concurrent.TimeUnit
@@ -155,12 +153,12 @@ public class TakePhotoFragment : Fragment() {
         // Get screen metrics used to setup camera for full screen resolution
         val metrics = DisplayMetrics().also { viewFinder.display.getRealMetrics(it) }
         Log.d(
-            TakePhotoFragment.TAG,
+            TAG,
             "Screen metrics: ${metrics.widthPixels} x ${metrics.heightPixels}"
         )
 
         val screenAspectRatio = aspectRatio(metrics.widthPixels, metrics.heightPixels)
-        Log.d(TakePhotoFragment.TAG, "Preview aspect ratio: $screenAspectRatio")
+        Log.d(TAG, "Preview aspect ratio: $screenAspectRatio")
 
         val rotation = viewFinder.display.rotation
 
@@ -201,12 +199,16 @@ public class TakePhotoFragment : Fragment() {
             .build()
             // The analyzer can then be assigned to the instance
             .also {
-                it.setAnalyzer(cameraExecutor, CameraFragment.LuminosityAnalyzer { luma ->
-                    // Values returned from our analyzer are passed to the attached listener
-                    // We log image analysis results here - you should do something useful
-                    // instead!
-                    Log.d(TakePhotoFragment.TAG, "Average luminosity: $luma")
-                })
+                it.setAnalyzer(cameraExecutor,
+                    CameraFragment.LuminosityAnalyzer { luma ->
+                        // Values returned from our analyzer are passed to the attached listener
+                        // We log image analysis results here - you should do something useful
+                        // instead!
+                        Log.d(
+                            TAG,
+                            "Average luminosity: $luma"
+                        )
+                    })
             }
 
         // Must unbind the use-cases before rebinding them
@@ -223,7 +225,7 @@ public class TakePhotoFragment : Fragment() {
             // Attach the viewfinder's surface provider to preview use case
             preview?.setSurfaceProvider(viewFinder.createSurfaceProvider())
         } catch (exc: Exception) {
-            Log.e(TakePhotoFragment.TAG, "Use case binding failed", exc)
+            Log.e(TAG, "Use case binding failed", exc)
         }
         viewFinder.setCameraToucherListener(object : CameraEventListener {
             override fun zoom() {
@@ -259,16 +261,17 @@ public class TakePhotoFragment : Fragment() {
     }
 
     // 拍照
-    public fun takePicture(outputDirectory: File, fileName: String,listener:ITakePictureListener) {
+    public fun takePicture(outputDirectory: File, fileName: String,listener: ITakePictureListener) {
         // Get a stable reference of the modifiable image capture use case
         imageCapture?.let { imageCapture ->
 
             // Create output file to hold the image
-            val photoFile = createFile(
-                outputDirectory,
-                fileName,
-                ".jpg"
-            )
+            val photoFile =
+                createFile(
+                    outputDirectory,
+                    fileName,
+                    ".jpg"
+                )
 
             // Setup image capture metadata
             val metadata = ImageCapture.Metadata().apply {
@@ -332,7 +335,8 @@ public class TakePhotoFragment : Fragment() {
                 container.postDelayed({
                     container.foreground = ColorDrawable(Color.WHITE)
                     container.postDelayed(
-                        { container.foreground = null }, ANIMATION_FAST_MILLIS
+                        { container.foreground = null },
+                        ANIMATION_FAST_MILLIS
                     )
                 }, ANIMATION_SLOW_MILLIS)
             }
@@ -383,7 +387,7 @@ public class TakePhotoFragment : Fragment() {
         override fun onDisplayRemoved(displayId: Int) = Unit
         override fun onDisplayChanged(displayId: Int) = view?.let { view ->
             if (displayId == this@TakePhotoFragment.displayId) {
-                Log.d(TakePhotoFragment.TAG, "Rotation changed: ${view.display.rotation}")
+                Log.d(TAG, "Rotation changed: ${view.display.rotation}")
                 imageCapture?.targetRotation = view.display.rotation
                 imageAnalyzer?.targetRotation = view.display.rotation
             }

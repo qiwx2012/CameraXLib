@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.jzg.lib.fragment
+package com.jzg.camera.lib.fragment
 
 import android.os.Bundle
 import android.view.LayoutInflater

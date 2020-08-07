@@ -1,4 +1,4 @@
-package com.jzg.lib.utils;
+package com.jzg.camera.lib.utils;
 
 import android.content.Context;
 import android.util.AttributeSet;

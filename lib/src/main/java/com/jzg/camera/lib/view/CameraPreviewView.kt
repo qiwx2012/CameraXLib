@@ -1,4 +1,4 @@
-package com.jzg.lib.view
+package com.jzg.camera.lib.view
 
 import android.content.Context
 import android.util.AttributeSet

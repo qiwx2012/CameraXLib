@@ -1,4 +1,4 @@
-package com.jzg.lib.fragment
+package com.jzg.camera.lib.fragment
 
 import android.annotation.SuppressLint
 import android.content.BroadcastReceiver
@@ -33,12 +33,14 @@ import androidx.navigation.Navigation
 import com.bumptech.glide.Glide
 import com.bumptech.glide.request.RequestOptions
 import com.jzg.jcpt.utils.CameraEventListener
-import com.jzg.lib.CameraXActivity
-import com.jzg.lib.KEY_EVENT_ACTION
-import com.jzg.lib.KEY_EVENT_EXTRA
+import com.jzg.camera.lib.CameraXActivity
+import com.jzg.camera.lib.KEY_EVENT_ACTION
+import com.jzg.camera.lib.KEY_EVENT_EXTRA
+import com.jzg.camera.lib.utils.ANIMATION_FAST_MILLIS
+import com.jzg.camera.lib.utils.ANIMATION_SLOW_MILLIS
+import com.jzg.camera.lib.utils.simulateClick
 import com.jzg.lib.R
-import com.jzg.lib.utils.*
-import com.jzg.lib.view.CameraPreviewView
+import com.jzg.camera.lib.view.CameraPreviewView
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import java.io.File
@@ -122,7 +124,10 @@ class CameraFragment : Fragment() {
         super.onResume()
         // Make sure that all permissions are still present, since the
         // user could have removed them while the app was in paused state.
-        if (!PermissionsFragment.hasPermissions(requireContext())) {
+        if (!PermissionsFragment.hasPermissions(
+                requireContext()
+            )
+        ) {
             Navigation.findNavController(requireActivity(), R.id.fragment_container).navigate(
                 CameraFragmentDirections.actionCameraToPermissions()
             )
@@ -291,12 +296,16 @@ class CameraFragment : Fragment() {
             .build()
             // The analyzer can then be assigned to the instance
             .also {
-                it.setAnalyzer(cameraExecutor, LuminosityAnalyzer { luma ->
-                    // Values returned from our analyzer are passed to the attached listener
-                    // We log image analysis results here - you should do something useful
-                    // instead!
-                    Log.d(TAG, "Average luminosity: $luma")
-                })
+                it.setAnalyzer(cameraExecutor,
+                    LuminosityAnalyzer { luma ->
+                        // Values returned from our analyzer are passed to the attached listener
+                        // We log image analysis results here - you should do something useful
+                        // instead!
+                        Log.d(
+                            TAG,
+                            "Average luminosity: $luma"
+                        )
+                    })
             }
 
         // Must unbind the use-cases before rebinding them
@@ -394,7 +403,12 @@ class CameraFragment : Fragment() {
             imageCapture?.let { imageCapture ->
 
                 // Create output file to hold the image
-                val photoFile = createFile(outputDirectory, FILENAME, PHOTO_EXTENSION)
+                val photoFile =
+                    createFile(
+                        outputDirectory,
+                        FILENAME,
+                        PHOTO_EXTENSION
+                    )
 
                 // Setup image capture metadata
                 val metadata = Metadata().apply {
@@ -455,7 +469,8 @@ class CameraFragment : Fragment() {
                     container.postDelayed({
                         container.foreground = ColorDrawable(Color.WHITE)
                         container.postDelayed(
-                            { container.foreground = null }, ANIMATION_FAST_MILLIS
+                            { container.foreground = null },
+                            ANIMATION_FAST_MILLIS
                         )
                     }, ANIMATION_SLOW_MILLIS)
                 }
@@ -487,8 +502,9 @@ class CameraFragment : Fragment() {
                 Navigation.findNavController(
                     requireActivity(), R.id.fragment_container
                 ).navigate(
-                    CameraFragmentDirections
-                        .actionCameraToGallery(outputDirectory.absolutePath)
+                    CameraFragmentDirections.actionCameraToGallery(
+                        outputDirectory.absolutePath
+                    )
                 )
             }
         }

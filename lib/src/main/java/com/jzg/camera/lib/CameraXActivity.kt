@@ -1,4 +1,4 @@
-package com.jzg.lib
+package com.jzg.camera.lib
 
 import android.content.Context
 import android.content.Intent
@@ -9,7 +9,8 @@ import android.widget.FrameLayout
 import androidx.annotation.RequiresApi
 import androidx.appcompat.app.AppCompatActivity
 import androidx.localbroadcastmanager.content.LocalBroadcastManager
-import com.jzg.lib.utils.FLAGS_FULLSCREEN
+import com.jzg.camera.lib.utils.FLAGS_FULLSCREEN
+import com.jzg.lib.R
 import java.io.File
 
 /**
@@ -40,7 +41,8 @@ class CameraXActivity : AppCompatActivity(){
         // Before setting full screen flags, we must wait a bit to let UI settle; otherwise, we may
         // be trying to set app to immersive mode before it's ready and the flags do not stick
         container.postDelayed({
-            container.systemUiVisibility = FLAGS_FULLSCREEN
+            container.systemUiVisibility =
+                FLAGS_FULLSCREEN
         }, IMMERSIVE_FLAG_TIMEOUT)
     }
 
